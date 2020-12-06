@@ -1,5 +1,5 @@
 :root {
-    --decoration-text-title: 'Ranchers', cursive;
+    --decoration-text-title: 'Anton', sans-serif;
     --decoration-text-h3: 'Quicksand', sans-serif;
 }
 
@@ -9,6 +9,48 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+}
+
+.header-nav {
+    font-family: var(--decoration-text-title);
+    color: black;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.span1 {
+    background-color: red;
+    padding: 1.5rem;
+    color: white;
+}
+
+.header-form {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+#form-h3 {
+    display: inline;
+    color: white;
+    font-family: var(--decoration-text-h3);
+    font-size: 0.8rem;
+}
+
+.header-input {
+    height: 2.5rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+.header-img {
+    width: 100vw;
+    height: 45rem;
 }
 
 

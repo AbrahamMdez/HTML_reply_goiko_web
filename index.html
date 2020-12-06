@@ -8,26 +8,28 @@
     </head>
 
     <body>
-        <header>
-            <nav>
-                <ul>
+        <header class="header-main">
+            <nav class="header-nav">
+                <ul class="header-list">
                     <li><a href="#">CARTA</a></li>
                     <li><a href="#">MENÚ GOIKO</a></li>
                     <li><a href="#"><img src="./img/gopikodes.jpg" alt="logotipo Goiko"></a></li>
-                    <li><a href="#">HACER PEDIDO</a></li>
+                    <li><a href="#"><span class="span1">HACER PEDIDO</span></a></li>
                     <li><a href="#">RESERVAR</a></li>
                 </ul>
             </nav>
-            <form action="">
-                <h3>¡Reserva ahora!</h3>
-                <input type="text" name="direction" id="direction" placeholder="Dirección" required>
-                <input type="date-time" name="date-time" id="date-time" placeholder="Fecha" required>
-                <input type="time" name="time" id="time" placeholder="Hora" required>
-                <input type="number" name="number" id="number" min="1" max="10" placeholder="Personas" required>
-                <input type="submit" value="Buscar >">
-            </form>
+            <div class="header-form">
+                <form name="formulario" method="GET" action="#">
+                    <h3 id="form-h3">¡Reserva ahora!</h3>
+                    <input class="header-input" type="text" name="direction" id="direction" placeholder="Dirección" required>
+                    <input class="header-input" type="date" name="date" id="date" placeholder="Fecha" required>
+                    <input class="header-input" type="time" name="time" id="time" placeholder="Hora" required>
+                    <input class="header-input" type="number" name="number" id="number" min="1" max="10" placeholder="Personas" required>
+                    <input class="header-input" type="submit" value="Buscar >">
+                </form>
+            </div>
             <figure>
-                <img src="./img/Kevin_Web_Desktop_header.jpg" alt="imagen hamburguesa kevin bacon">
+                <img class="header-img" src="./img/Kevin_Web_Desktop_header.jpg" alt="imagen hamburguesa kevin bacon">
             </figure>
         </header>
 
