@@ -70,7 +70,7 @@
 }
 
 .article1 {
-    height: 25rem;
+    height: 30rem;
 }
 
 .article1 > h2 {
@@ -88,9 +88,11 @@
 .article2 {
     height: 30rem;
     background-color: lightgrey;
+    padding: 4rem;
 }
 
 .div-article2 {
+    margin-top: 20rem;
     border: 1px white solid;
     margin: 3rem 2.5rem;
     display: grid;
@@ -118,7 +120,7 @@
     display: grid;
     grid-area: m;
     height: 0.5rem;
-    margin-top: 23rem;
+    margin-top: 15rem;
     margin-left: 15rem;
     height: 2rem;
     width: 15rem;
@@ -145,3 +147,83 @@
     margin-top: 11rem;
     text-align: center;
 }
+
+.article3 {
+    height: 5rem;
+}
+
+.article3 > h2 {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.button-showAllDishes {
+    margin-left: 42.5vw;
+    margin-top: 2rem;
+}
+
+.article4 {
+    height: 60rem;
+}
+
+.grid-img { 
+    margin-top: 3rem;
+    margin: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 25rem);
+    grid-template-rows: repeat(4, 15rem);
+}
+
+.grid-img > img:first-child {
+    display: grid;
+    grid-column: 1 / span 2;
+    object-fit: cover;
+}
+
+.grid-img > img:nth-child(2) {
+    display: grid;
+    grid-column: 3 / 4;
+}
+
+.grid-img > img:nth-child(3) {
+    display: grid;
+    grid-column: 1 / 2;
+}
+
+.grid-img > img:nth-child(4) {
+    display: grid;
+    grid-column: 2 / 4;
+}
+
+.grid-img > img:nth-child(5) {
+    display: grid;
+    grid-column: 1 / span 2;
+}
+
+.grid-img > img:nth-child(6) {
+    display: grid;
+    grid-column: 3 / 4;
+}
+
+.grid-img > img:nth-child(7) {
+    display: grid;
+    grid-column: 1 / 2;
+}
+
+.grid-img > img:nth-child(8) {
+    display: grid;
+    grid-column: 2 / 4;
+}
+
+.img1-grid {
+    height: 13rem;
+    width: 45rem;
+}
+
+.img2-grid {
+    height: 13rem;
+    width: 20rem;
+}
+
+
+
