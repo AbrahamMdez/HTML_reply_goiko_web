@@ -1,5 +1,5 @@
 :root {
-    --decoration-text-title: 'Anton', sans-serif;
+    --decoration-text-title: "Nunito Sans", Arial, sans-serif;;
     --decoration-text-h3: 'Quicksand', sans-serif;
 }
 
@@ -223,6 +223,65 @@
 .img2-grid {
     height: 13rem;
     width: 20rem;
+}
+
+.article5 {
+    height: 30rem;
+    background-color: lightgrey;
+}
+
+.article5 > h2 {
+    text-align: center;
+}
+
+.article5-figure {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.article5-img {
+    height: 15rem;
+    width: 20rem;
+}
+
+.button-all {
+    margin-left: 36rem;
+    margin-top: 2.5rem;
+    background: transparent;
+    border: 2px solid #c00c0c;
+    border-radius: 8px;
+    color: #c00c0c;
+    width: 12rem;
+    height: 3rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 35rem;
+}
+
+.footer-div {
+    margin-left: 5rem;
+    width: 15rem;
+    display: grid;
+    grid-template-columns: repeat(2, 12.5rem);
+    grid-template-rows: repeat(6, 2rem);
+}
+
+.footer-div > h6 {
+    font-size: 1rem;
+    margin-top: 12rem;
+}
+
+.footer-image {
+    margin-left: 35rem;
+}
+
+.img-final-footer {
+    height: 10rem;
+    margin-bottom: 10rem;
 }
 
 
